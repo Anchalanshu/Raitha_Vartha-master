@@ -1,49 +1,83 @@
-# Jenu-Gumpu – Honey Producer's Collective App
+# Raitha Varta – AI Farming Advisory App
 
-Jenu-Gumpu is an AI-powered Android application developed to support tribal and rural honey hunters. The app helps users manage honey collection, grading, pricing, and collective stock management using GenAI-based assistance.
+Raitha Varta is an AI-powered Android application developed to support farmers with smart agricultural guidance, crop management, and real-time farming consultations using Generative AI.
+
+The application combines modern Android development technologies with Google Gemini AI to provide localized, intelligent, and accessible farming assistance for rural users.
+
+---
 
 ## Features
 
-- Honey Harvest Logging
-- Honey Quality Grading
-- Retail Price Monitoring
-- Batch Tracking System
-- Profit Calculator
-- Collective Stock Management
-- Kannada Language Support
-- Simple and User-Friendly UI
+- AI-powered farming consultation
+- Personalized crop management plans
+- Pest outbreak guidance
+- Growth stage recommendations
+- Offline accessibility using Room Database
+- English and Kannada language support
+- Modern Material 3 UI
+- Light and Dark theme support
+- Daily farming checklist
+- Responsive Jetpack Compose interface
+
+---
 
 ## Problem Statement
 
-Tribal and rural honey hunters often sell honey at low prices due to:
-- Lack of market awareness
-- No quality grading system
-- Dependence on middlemen
-- Poor stock tracking and branding
+Traditional farming communities often face an information gap due to limited access to:
+- Expert agricultural consultation
+- Real-time crop guidance
+- Pest outbreak solutions
+- Localized farming recommendations
 
-This application provides digital tools to improve product quality, pricing awareness, and collective selling power.
+Raitha Varta solves this challenge by integrating Google Gemini AI into a modern Android application to deliver smart, actionable, and personalized agricultural support directly to farmers.
+
+---
 
 ## Technologies Used
 
-- Android Studio
-- Java / Kotlin
-- Firebase
+- Kotlin
+- Jetpack Compose
+- MVVM Architecture
+- Google Gemini AI SDK
 - Room Database
-- XML
-- Material Design Components
-- Gradle Kotlin DSL
-- GenAI APIs
+- Android Studio
+- Material 3 Design
+- Firebase (Optional)
+- Coroutines & Flow
 
-## Project Structure
+---
 
-- `app/` → Main Android application
-- `gradle/` → Build configurations
-- `build.gradle.kts` → Project build setup
-- `settings.gradle.kts` → Project settings
-- `gradle.properties` → Gradle configurations
+## Architecture
+
+The project follows MVVM (Model-View-ViewModel) architecture for scalable and maintainable development.
+
+### Layers:
+- UI Layer → Jetpack Compose
+- ViewModel Layer → State Management
+- Repository Layer → Business Logic
+- Local Database → Room DB
+- AI Integration Layer → Gemini AI APIs
+
+---
+
+## Key Functionalities
+
+### Smart AI Advisory
+Farmers can ask farming-related questions and receive AI-generated recommendations based on crop conditions and agricultural practices.
+
+### Offline Support
+Critical farming data and checklists are stored locally using Room Database to ensure access in low-network regions.
+
+### Multilingual Support
+The application supports both English and Kannada for better accessibility among regional farmers.
+
+### Modern UI
+Built using Material 3 and Jetpack Compose for a clean and responsive user experience.
+
+---
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/jenu-gumpu.git
+git clone https://github.com/yourusername/raitha-varta.git
