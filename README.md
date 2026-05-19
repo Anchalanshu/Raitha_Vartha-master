@@ -1,4 +1,4 @@
-# Raitha Varta – AI Farming Advisory App
+# Raitha Varta - AI Farming Advisory App
 
 Raitha Varta is an AI-powered Android application developed to support farmers with smart agricultural guidance, crop management, and real-time farming consultations using Generative AI.
 
